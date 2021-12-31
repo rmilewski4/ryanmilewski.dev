@@ -1,4 +1,17 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url('LEMONMILK-Medium.otf');
+}
+@font-face {
+    font-family: LemonMilk;
+    font-style: italic;
+    src: url('LEMONMILK-MediumItalic.otf');
+}
 h1 {
-
-color:blue 
+font-family: LemonMilk, sans-serif;
+color:red 
+}
+h2 {
+    font-family: LemonMilk, sans-serif;
+    font-style: italic;
 }
