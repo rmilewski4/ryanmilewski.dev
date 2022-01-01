@@ -1,2 +1,2 @@
 # ryanmilewski.dev
-Creating a spot to hold my portfolio site stuff 
+Welcome! This is a spot for me to store and backup all of my website files.
