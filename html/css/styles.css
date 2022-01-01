@@ -8,11 +8,17 @@
     src: url('LEMONMILK-MediumItalic.otf');
 }
 h1 {
-font-family: LemonMilk, sans-serif;
-text-align: center;
-color:#68bdff 
+    font-family: LemonMilk, sans-serif;
+    text-align: center;
+    color:#68bdff; 
 }
 h2 {
     font-family: LemonMilk, sans-serif;
     font-style: italic;
+
+}
+p {
+    font-family:  LemonMilk, sans-serif;
+    color:#497ba1;
+    
 }
