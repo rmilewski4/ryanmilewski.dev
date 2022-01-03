@@ -10,15 +10,34 @@
 h1 {
     font-family: LemonMilk, sans-serif;
     text-align: center;
-    color:#68bdff; 
+    color:#68bdff;
 }
-h2 {
+h3 {
     font-family: LemonMilk, sans-serif;
-    font-style: italic;
-
+    text-align: center;
+    color:#68bdff; 
 }
 p {
     font-family:  LemonMilk, sans-serif;
     color:#497ba1;
     
+}
+.header {
+    font-family: LemonMilk, sans-serif;
+    text-align: center;
+    color:#68bdff; 
+    padding: 0;
+    margin: 0;
+
+}
+.header h1,
+.header h3 {
+    padding: 0;
+    margin: 0;
+}
+.header p {
+    margin: 25px 10px;
+}
+.about {
+    background-color: white;
 }
