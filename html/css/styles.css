@@ -22,13 +22,34 @@ p {
     color:#497ba1;
     
 }
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #dddddd;
+    width: 100%;
+}
+.navbar li {
+    font-family: LemonMilk, sans-serif;
+    padding: 8px;
+    background-color: #dddddd; 
+    float: left;
+}
+.navbar a {
+    font-family: LemonMilk, sans-serif;
+    text-align: center;
+    color:#68bdff; 
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
 .header {
     font-family: LemonMilk, sans-serif;
     text-align: center;
     color:#68bdff; 
     padding: 0;
     margin: 0;
-
 }
 .header h1,
 .header h3 {
@@ -39,5 +60,20 @@ p {
     margin: 25px 10px;
 }
 .about {
-    background-color: white;
+    font-family:  LemonMilk, sans-serif;
+    color:#497ba1;
+}
+.about h2 {
+    text-align: center;
+    margin: 0;
+}
+.border {
+    border-bottom: solid;
+    width: 200px;
+    margin: auto;
+    border-color: grey;    
+}
+.border h6 {
+    padding: 0;
+    margin: auto;
 }
