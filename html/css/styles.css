@@ -22,28 +22,48 @@ p {
     color:#497ba1;
     
 }
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
     overflow:hidden;
     background-color: #dddddd;
-    width: 100%;
-}
-.navbar li {
-    font-family: LemonMilk, sans-serif;
-    padding: 8px;
-    background-color: #dddddd; 
-    float: left;
 }
 .navbar a {
     font-family: LemonMilk, sans-serif;
+    float: left;
+    text-decoration: none;
     text-align: center;
     color:#68bdff; 
     display: block;
     padding: 8px;
     background-color: #dddddd;
 }
+.navbar a:hover {
+    background-color: black;
+    color:#497ba1;
+}
+.navbar .icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 .header {
     font-family: LemonMilk, sans-serif;
     text-align: center;

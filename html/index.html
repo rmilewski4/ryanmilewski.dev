@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Ryan Milewski</title>
 
@@ -25,18 +27,20 @@
         gtag('config', 'G-B4FFY9L1VD');
     </script>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
-    <div class= "navbar">
-        <ul>
-            <li><a>Ryan Milewski</a></li>
-            <li style="float:right;"><a href= "#contact">Contact</a></li>
-            <li style="float:right;"><a href="#portfolio">Portfolio</a></li>
-            <li style="float:right;"><a href="#about">About</a></li>
-        </ul>
+    <div class= "navbar" id="myNavbar">
+        <a href = #home class = "active">Ryan Milewski</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href= "#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
+    <script src="js/script.js"></script>
     <div class="header">
         <h1>
             Hello.
